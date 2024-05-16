@@ -1,6 +1,9 @@
-from datatype import Datatype
+import time
+
+arr = [5, 4, 3, 69, 11, 87]
 
 
-test = Datatype()
-
-print(test.data_list)
+for i in arr:
+    
+    arr.remove(i)
+    print(arr)
