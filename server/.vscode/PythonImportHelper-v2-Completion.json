@@ -1,0 +1,273 @@
+[
+    {
+        "label": "copy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "copy",
+        "description": "copy",
+        "detail": "copy",
+        "documentation": {}
+    },
+    {
+        "label": "Game_type",
+        "importPath": "datatype",
+        "description": "datatype",
+        "isExtraImport": true,
+        "detail": "datatype",
+        "documentation": {}
+    },
+    {
+        "label": "Game_type",
+        "importPath": "datatype",
+        "description": "datatype",
+        "isExtraImport": true,
+        "detail": "datatype",
+        "documentation": {}
+    },
+    {
+        "label": "Client_type",
+        "importPath": "datatype",
+        "description": "datatype",
+        "isExtraImport": true,
+        "detail": "datatype",
+        "documentation": {}
+    },
+    {
+        "label": "Game_type",
+        "importPath": "datatype",
+        "description": "datatype",
+        "isExtraImport": true,
+        "detail": "datatype",
+        "documentation": {}
+    },
+    {
+        "label": "Room",
+        "importPath": "datatype",
+        "description": "datatype",
+        "isExtraImport": true,
+        "detail": "datatype",
+        "documentation": {}
+    },
+    {
+        "label": "Message",
+        "importPath": "datatype",
+        "description": "datatype",
+        "isExtraImport": true,
+        "detail": "datatype",
+        "documentation": {}
+    },
+    {
+        "label": "Move_logic",
+        "importPath": "move_logic",
+        "description": "move_logic",
+        "isExtraImport": true,
+        "detail": "move_logic",
+        "documentation": {}
+    },
+    {
+        "label": "socket",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "socket",
+        "description": "socket",
+        "detail": "socket",
+        "documentation": {}
+    },
+    {
+        "label": "threading",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "threading",
+        "description": "threading",
+        "detail": "threading",
+        "documentation": {}
+    },
+    {
+        "label": "multiprocessing",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "multiprocessing",
+        "description": "multiprocessing",
+        "detail": "multiprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "pickle",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pickle",
+        "description": "pickle",
+        "detail": "pickle",
+        "documentation": {}
+    },
+    {
+        "label": "Process",
+        "importPath": "chess_module",
+        "description": "chess_module",
+        "isExtraImport": true,
+        "detail": "chess_module",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "tkinter",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "Process",
+        "kind": 6,
+        "importPath": "chess_module",
+        "description": "chess_module",
+        "peekOfCode": "class Process():\n    def __init__(self):\n        pass\n    def array_clear(array):\n        for i in range(8):\n            for j in range(8):\n                array[i][j] = ''\n    def moving (game, start_pos, end_pos):\n        game.player_turn *= -1\n        start_x, start_y = start_pos",
+        "detail": "chess_module",
+        "documentation": {}
+    },
+    {
+        "label": "debug_print_arra",
+        "kind": 2,
+        "importPath": "chess_module",
+        "description": "chess_module",
+        "peekOfCode": "def debug_print_array (array) :\n    for i in range(8):\n        print(array[i])\nclass Process():\n    def __init__(self):\n        pass\n    def array_clear(array):\n        for i in range(8):\n            for j in range(8):\n                array[i][j] = ''",
+        "detail": "chess_module",
+        "documentation": {}
+    },
+    {
+        "label": "Game_type",
+        "kind": 6,
+        "importPath": "datatype",
+        "description": "datatype",
+        "peekOfCode": "class Game_type():\n    def __init__(self):\n        #主要會用到的變數\n        self.last_move_place = [['' for _ in range(8)] for _ in range(8)]\n        self.can_move_place = [['' for _ in range(8)] for _ in range(8)]\n        self.board = [['' for _ in range(8)] for _ in range(8)]\n        self.player_turn = -1\n        self.is_checkmate = 0\n        self.stop_game = 0\n        self.is_first_move_king = [1,1]",
+        "detail": "datatype",
+        "documentation": {}
+    },
+    {
+        "label": "Client_type",
+        "kind": 6,
+        "importPath": "datatype",
+        "description": "datatype",
+        "peekOfCode": "class Client_type():\n    def __init__(self):\n        self.client_socket = ''\n        self.client_address = ''\n        self.data_list = []\n        self.mission_list = []\n        self.connect = 'exist'\n        self.last_convey_time = 0\n        self.room = None\nclass Room():",
+        "detail": "datatype",
+        "documentation": {}
+    },
+    {
+        "label": "Room",
+        "kind": 6,
+        "importPath": "datatype",
+        "description": "datatype",
+        "peekOfCode": "class Room():\n    def __init__(self, room_id):\n        self.room_id = room_id\n        self.players = []\n        self.game = Game_type()  # 假设 Game_type 是你定义的游戏状态类\n        self.room_full = False\n        self.mission_list = []\nclass Message():\n    def __init__(self):\n        self.message_type = ''",
+        "detail": "datatype",
+        "documentation": {}
+    },
+    {
+        "label": "Message",
+        "kind": 6,
+        "importPath": "datatype",
+        "description": "datatype",
+        "peekOfCode": "class Message():\n    def __init__(self):\n        self.message_type = ''\n        self.message_content = []",
+        "detail": "datatype",
+        "documentation": {}
+    },
+    {
+        "label": "Move_logic",
+        "kind": 6,
+        "importPath": "move_logic",
+        "description": "move_logic",
+        "peekOfCode": "class Move_logic() :\n    def __init__(self) :\n        pass\n    def white_black_detect (chess_class) :\n        if chess_class.islower() :\n            return -1\n        elif chess_class.isupper() :\n            return 1\n        else :\n            return 0",
+        "detail": "move_logic",
+        "documentation": {}
+    },
+    {
+        "label": "client_mission_process_job",
+        "kind": 2,
+        "importPath": "server",
+        "description": "server",
+        "peekOfCode": "def client_mission_process_job(client):\n    while True:\n        if client.connect == 'disappear':\n            break\n        if len(client.data_list) > 0:\n            message = client.data_list.pop(0)\n            message_type = message.message_type\n            if message_type == \"connection_confirmation\":\n                pass\n            elif message_type == \"move\":",
+        "detail": "server",
+        "documentation": {}
+    },
+    {
+        "label": "client_send_message_job",
+        "kind": 2,
+        "importPath": "server",
+        "description": "server",
+        "peekOfCode": "def client_send_message_job(client):\n    while True:\n        if client.connect == 'disappear':\n            break\n        try:\n            if len(client.mission_list) > 0:\n                message = client.mission_list.pop(0)\n                client.client_socket.sendall(pickle.dumps(message))\n                #print(f\"傳送訊係給{client.client_address}:\",message.message_type)\n        except:",
+        "detail": "server",
+        "documentation": {}
+    },
+    {
+        "label": "is_client_still_connect_detect",
+        "kind": 2,
+        "importPath": "server",
+        "description": "server",
+        "peekOfCode": "def is_client_still_connect_detect(client):\n    while True:\n        if client.connect == 'disappear':\n            break\n        now_time = time.time()\n        if now_time - client.last_time_convey > 10:\n            if now_time - client.last_time_convey > 30:\n                client.connect = 'disappear'\n                break\n            message = Message()",
+        "detail": "server",
+        "documentation": {}
+    },
+    {
+        "label": "client_message_reception_job",
+        "kind": 2,
+        "importPath": "server",
+        "description": "server",
+        "peekOfCode": "def client_message_reception_job(clients, client):\n    client.client_socket.settimeout(5.0)\n    while True:\n        if client.connect == 'disappear':\n            break\n        try:\n            data = client.client_socket.recv(4096)\n            client.last_time_convey = time.time()\n            client.data_list.append(pickle.loads(data))\n            ##print(f\"接收到{client.client_address}的訊息:\",client.data_list[-1].message_type)",
+        "detail": "server",
+        "documentation": {}
+    },
+    {
+        "label": "game_start_job",
+        "kind": 2,
+        "importPath": "server",
+        "description": "server",
+        "peekOfCode": "def game_start_job(rooms, room):\n    rand = random.randint(0, 1)\n    if rand == 1:\n        temp = room.players[0]\n        room.players[0] = room.players[1]\n        room.players[1] = temp\n    white_player = room.players[0]\n    black_player = room.players[1]    \n    game = Game_type()\n    game.initial()",
+        "detail": "server",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "server",
+        "description": "server",
+        "peekOfCode": "def main():\n    # 建立一個 IPv4 TCP Socket\n    server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\n    # 获取主机名\n    hostname = socket.gethostname()\n    # 根据主机名获取IP地址\n    ip_address = socket.gethostbyname(hostname)\n    # 綁定伺服器的 IP 位址和埠號\n    server_ip = ip_address  # 你可以修改為你的 IP 位址\n    server_port = 878  # 你可以使用未被佔用的埠號",
+        "detail": "server",
+        "documentation": {}
+    },
+    {
+        "label": "LoadingCircleApp",
+        "kind": 6,
+        "importPath": "test",
+        "description": "test",
+        "peekOfCode": "class LoadingCircleApp:\n    def __init__(self, root):\n        self.root = root\n        self.root.title(\"Loading Circle with Variable Speed\")\n        self.canvas = tk.Canvas(root, width=50, height=50, bg=\"black\")\n        self.canvas.pack()\n        self.center_x = 25\n        self.center_y = 25\n        self.radius = 25\n        self.angle = 0",
+        "detail": "test",
+        "documentation": {}
+    }
+]
