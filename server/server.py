@@ -161,7 +161,7 @@ def main():
 
     # 綁定伺服器的 IP 位址和埠號
     server_ip = ip_address  # 你可以修改為你的 IP 位址
-    server_port = 878  # 你可以使用未被佔用的埠號
+    server_port = 1080  # 你可以使用未被佔用的埠號
     server_socket.bind((server_ip, server_port))
 
     # 讓伺服器開始監聽連線

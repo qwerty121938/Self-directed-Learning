@@ -1,0 +1,1 @@
+server_socket.bind((server_ip, server_port))
