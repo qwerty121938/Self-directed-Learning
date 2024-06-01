@@ -7,7 +7,7 @@
 [AI Module檔案](./client/ai_module.py)
 - 伺服器端需要有python並執行server資料夾的server.py
 - 客戶端只需要下載game的資料夾執行exe檔就好
-
+下載連結:[點這](https://github.com/qwerty121938/Self-directed-Learning/releases/tag/v1.1)
 
 ## 成果展示
 
