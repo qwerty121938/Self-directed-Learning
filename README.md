@@ -5,6 +5,19 @@
 > 我把設定改為前面測試時的隨機函數，但是我還是把AI的函式留在檔案內
 > 
 [AI Module檔案](./client/ai_module.py)
-![alt 文字](https://raw.githubusercontent.com/adam-p/markdown-here/master/src/common/images/icon48.png "Logo 標題文字 1")
+
+## 成果展示
+
+- 初始介面
+
+![alt 文字](./picture/initial.png "初始介面")
+
+- 遊戲畫面(所有模式都差不多長這樣)
+
+![alt 文字](./picture/two-players-game.png "遊戲畫面")
+
+- 線上模式(輸入ip)
+
+![alt 文字](./picture/online-game.png "線上模式")
 
 註:客戶端檔案有可能被系統偵測為病毒原因是有使用到系統指令請放心使用
