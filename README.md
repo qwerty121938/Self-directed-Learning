@@ -5,6 +5,9 @@
 > 我把設定改為前面測試時的隨機函數，但是我還是把AI的函式留在檔案內
 > 
 [AI Module檔案](./client/ai_module.py)
+- 伺服器端需要有python並執行server資料夾的server.py
+- 客戶端只需要下載game的資料夾執行exe檔就好
+
 
 ## 成果展示
 
