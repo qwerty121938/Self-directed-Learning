@@ -31,9 +31,9 @@
     * 連結(下載`game.zip`就好) : [click me](<https://github.com/qwerty121938/Self-directed-Learning/releases/tag/v1.1> "Download")
     * 解壓縮
     * 開啟`start.exe`即可遊玩
-:::warning
-註 : 此檔案有可能被系統偵測為病毒原因是有使用到系統指令請放心使用
-:::
+
+>註 : 此檔案有可能被系統偵測為病毒原因是有使用到系統指令請放心使用
+
 * 伺服器媏
     
     
@@ -55,8 +55,12 @@
 - 初始介面
 
 ![alt 文字](./picture/initial.png "初始介面")
-![alt 文字](./picture/initial.png "初始介面")  
+
+- 連線介面
+
+![alt 文字](./picture/online-game.png "連線介面")  
 
 - 遊戲畫面(所有模式都差不多長這樣)
 
+![alt 文字](./picture/two-players-game.png "遊戲畫面")  
 
