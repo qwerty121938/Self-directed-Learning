@@ -3,7 +3,7 @@
 ## 連結
 
 * [Github link](<https://github.com/qwerty121938/Self-directed-Learning> "GIthub")
-* [HackMD link](<https://hackmd.io/C75PLF7YSBKOHbeb2zwwWw> "HackMD")
+* [HackMD link](<https://hackmd.io/@PL6cdaDdSdGTd_P_M5p7FA/SyjX8dVBC)> "HackMD")
 * [Download Page](<https://github.com/qwerty121938/Self-directed-Learning/releases/tag/v1.1> "Download")
 
 <br></br>
