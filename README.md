@@ -5,7 +5,7 @@
 * [Github link](<https://github.com/qwerty121938/Self-directed-Learning> "GIthub")
 * [HackMD link](<https://hackmd.io/@PL6cdaDdSdGTd_P_M5p7FA/SyjX8dVBC)> "HackMD")
 * [Download Page](<https://github.com/qwerty121938/Self-directed-Learning/releases/tag/v1.1> "Download")
-* 
+* [@PL6cdaDdSdGTd_P_M5p7FA/SyjX8dVBC](https://hackmd.io/@PL6cdaDdSdGTd_P_M5p7FA/SyjX8dVBC)
 <br></br>
 * 警告 : `伺服器端及客戶端有pickle的漏洞有可能被攻擊請小心執行`
 > 遊戲裡面的AI模式並不是真正的AI，因為考慮到AI的效率極低導致卡頓，所以
